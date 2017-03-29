@@ -14,11 +14,11 @@ $(document).ready(function() {
 
     // Initialize Firebase
     var config = {
-      apiKey: "AIzaSyCU1ieUnX-gUHEnOX5rGqn9cv99L6mNYTA",
+      apiKey: "",//Hidden for Security
       authDomain: "pennywise-fd6da.firebaseapp.com",
       databaseURL: "https://pennywise-fd6da.firebaseio.com",
       storageBucket: "pennywise-fd6da.appspot.com",
-      messagingSenderId: "676846676167"
+      messagingSenderId: ""//Hidden for Security
     };
     firebase.initializeApp(config);
 
